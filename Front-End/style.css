@@ -2,6 +2,10 @@
     background-color:rgb(39, 53, 58);
 }
 
+.cardThem{
+    background-color: rgb(222, 225, 228);
+}
+
 .rtl {
     direction: rtl;
 }
