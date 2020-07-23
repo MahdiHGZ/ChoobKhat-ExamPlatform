@@ -1,0 +1,13 @@
+.theme-1{
+    background-color:rgb(39, 53, 58);
+}
+
+.rtl {
+    direction: rtl;
+}
+
+.logo {
+    position: relative;
+    opacity: 0.95;
+    max-width: 5%;
+}
