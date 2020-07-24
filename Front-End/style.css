@@ -5,6 +5,7 @@
 .cardThem{
     background-color: rgb(222, 225, 228);
     border-radius: 10px;
+    height: 350px;
 }
 
 .rtl {
@@ -62,4 +63,14 @@
 
 .verify{
     display: none;
+}
+.ppage{
+    display: none;
+}
+.error-token{
+    min-height: 105px;
+}
+.bg-error{
+    background-color: rgb(204, 160, 160);
+    border-width: 10px;
 }
