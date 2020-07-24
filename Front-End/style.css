@@ -15,3 +15,39 @@
     opacity: 0.95;
     max-width: 5%;
 }
+
+.tex-box{
+    background-color: rgb(222, 225, 228);
+    text-align: center;
+}
+
+.main{
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.main-2{
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.bg-left-meno{
+    background-color:rgb(222, 225, 228);
+    position: fixed;
+    width: auto;
+    height: 100%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.exam{
+
+    background-color:rgb(222, 225, 228) ;
+}
+
+.exam-bar{
+    border-radius: 5px;
+    background-color: rgb(123, 181, 240);
+}
