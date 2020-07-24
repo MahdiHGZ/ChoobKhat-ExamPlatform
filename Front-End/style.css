@@ -4,10 +4,15 @@
 
 .cardThem{
     background-color: rgb(222, 225, 228);
+    border-radius: 10px;
 }
 
 .rtl {
     direction: rtl;
+}
+
+.ltr {
+    direction: ltr;
 }
 
 .logo {
@@ -17,7 +22,10 @@
 }
 
 .tex-box{
-    background-color: rgb(222, 225, 228);
+    background-color: beige;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
     text-align: center;
 }
 
@@ -50,4 +58,8 @@
 .exam-bar{
     border-radius: 5px;
     background-color: rgb(123, 181, 240);
+}
+
+.verify{
+    display: none;
 }
