@@ -18,7 +18,7 @@ for (let i = 0; i < 100; i++) {
               <p class="card-text">{qus_n}سواله</p>
               <p class="card-text">تاریخ برگزار: {exam_date}</p>
               <pre class="card-text">{exam_dis}</pre>
-              <div class="text-left"><a id="btn-${i+1}"  href="#" class="btn ${but_style}">${but}</a></div>
+              <div class="text-left"><a id="btn-${i+1}" class="text-light btn ${but_style} btn-enter">${but}</a></div>
 
             <div class="verify" id="verify-${i+1}">
               <div class="input-group mb-3 ltr">
@@ -39,6 +39,8 @@ $("#exam-cards").append(cards);
 for (let i = 0; i < 100; i++) {
     $(`#btn-${i+1}`).click(function(){
         if(1) {
+            $(".btn-enter").show()
+            $(".verify").hide()
             $(this).hide();
             $(`#verify-${i+1}`).css("display","inline");
         }
@@ -46,3 +48,4 @@ for (let i = 0; i < 100; i++) {
         }
     });
 }
+
