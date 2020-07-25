@@ -17,7 +17,7 @@ for (let i = 0; i < 100; i++) {
         var but="تمام شده"
     }
     cards += `
-    <div class="col-sm-4">
+    <div class="col-lg-4 col-sm-6 col-xs-12">
           <div class="card  mb-1 mt-1 ml-1 mr-1 cardThem">
             <div class="card-body">
               <h5 class="card-title">{exam_name}</h5>
