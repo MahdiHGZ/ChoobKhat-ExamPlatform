@@ -2,8 +2,12 @@
     background-color:rgb(39, 53, 58);
 }
 
+.body-bg{
+    background-color:#cecfd0 ;
+}
+
 .cardThem{
-    background-color: rgb(222, 225, 228);
+    background-color: rgb(171, 182, 194);
     border-radius: 10px;
     height: 350px;
 }
@@ -33,15 +37,18 @@
 .main{
     min-height: 1050px;
     margin-top: 30px;
+    
     margin-left: 5%;
     margin-right: 5%;
 }
+
 
 .main-2{
     margin-top: 10px;
     margin-left: 15%;
     margin-right: 15%;
 }
+
 
 .bg-left-meno{
     background-color:rgb(222, 225, 228);
