@@ -1,13 +1,13 @@
-
-var cards ="";
-for (let i = 0; i < 100; i++) {
+$(document).ready(function(){
+  var cards ="";
+  for (let i = 0; i < 100; i++) {
 
     // if(i%6==0){
     //   cards+=`
-    //   <div id="page-${((i-i%6)/6)+1}" class="col-12 rtl ppage">
+    //   <div id="page-${((i-i%6)/6)+1}" class="row text-right main col-12 rtl ppage">
     //   `
     // }
-
+    
     if(i%2==0){
         var but_style="btn-primary"
         var but="اضافه شدن به آزمون"
@@ -18,7 +18,7 @@ for (let i = 0; i < 100; i++) {
     }
     cards += `
     <div class="col-lg-4 col-sm-6 col-xs-12">
-          <div class="card  mb-1 mt-1 ml-1 mr-1 cardThem">
+          <div class="card  mb-1 mt-1 ml-0 mr-0 cardThem">
             <div class="card-body">
               <h5 class="card-title">{exam_name}</h5>
               <p class="card-text">مخصوص پایه {exam_grade} </p>
@@ -45,11 +45,11 @@ for (let i = 0; i < 100; i++) {
     // if(i%6==0){
     //   cards+=`</div>`
     // }
-}
+  }
 
 $("#exam-cards").append(cards);
 
-
+});
 
 
 for (let i = 0; i < 100; i++) {
@@ -77,9 +77,9 @@ for (let i = 0; i < 100; i++) {
     if(1){
 
       $(`#token-error-${i+1}`).html(`
-      <div class="rounded-lg bg-error border border-3 border-danger">
-          <b class="mr-3">کد نامعتبر</b>
-          <p class="mr-2">برای دریافت کد ورود به آزمون باید به اکانت<span class="btn btn-link">تلگرام چوب خط</span>پیام دهید </p>
+      <div class="rounded-lg bg-error">
+          <b class="mr-4">کد نامعتبر</b>
+          <p class="ml-3 mr-3 error-t">برای دریافت کد ورود به آزمون باید به اکانت<a class="btn btn-link error-t-l mb-1 mr-0" href="https://t.me/choobkhat_admin">تلگرام چوب خط</a>پیام دهید</p>
       </div>
       `);
     }

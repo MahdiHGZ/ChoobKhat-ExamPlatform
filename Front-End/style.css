@@ -71,6 +71,18 @@
     min-height: 105px;
 }
 .bg-error{
-    background-color: rgb(204, 160, 160);
-    border-width: 10px;
+    background-color: rgb(223, 201, 201);
+    border: 3px solid #d9534f;
+    border-radius: 20px;
+}
+
+.error-t{
+    font-size: small;
+    font-weight: bold;
+}
+
+.error-t-l{
+    font-size: small;
+    color: #0275d8;
+    font-weight: bold;
 }
