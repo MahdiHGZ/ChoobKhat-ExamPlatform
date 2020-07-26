@@ -134,5 +134,6 @@
 
 .page-form{
     background-color: rgb(171, 182, 194);
-    height: 1000%;
+    height: 300%;
+    border-radius: 10px;
 }

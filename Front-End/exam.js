@@ -16,7 +16,6 @@ $(document).ready(function(){
             <a class="nav-link" href="#">سوال<span class="badge ${badge}">${i+1}</span></a>
         </li>
         `
-        
     }
     $(".sol-bar").append(sol_bar);
 });
