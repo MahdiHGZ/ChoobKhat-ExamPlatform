@@ -3,7 +3,7 @@
 }
 
 .body-bg{
-    background-color:#cecfd0 ;
+    background-color:#d7d8d9 ;
 }
 
 .cardThem{
@@ -130,4 +130,9 @@
 {
     background-color: #343a40 !Important;
     border: solid 1px #8f80a7;
+}
+
+.page-form{
+    background-color: rgb(171, 182, 194);
+    height: 1000%;
 }
