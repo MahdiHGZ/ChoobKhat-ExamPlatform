@@ -15,6 +15,7 @@ $(document).ready(function(){
         <li id="sol-${i+1}" class="nav-item">
             <a class="nav-link" href="#">سوال<span class="badge ${badge}">${i+1}</span></a>
         </li>
+        
         `
     }
     $(".sol-bar").append(sol_bar);
